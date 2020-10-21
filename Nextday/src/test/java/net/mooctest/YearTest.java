@@ -27,7 +27,7 @@ public class YearTest {
   private Year y2;
 
   @Before
-  public void before() throws Throwable {
+  public void setup() throws Throwable {
     y = new Year(2020);
     y1 = new Year(2020);
     y2 = new Year(2020);

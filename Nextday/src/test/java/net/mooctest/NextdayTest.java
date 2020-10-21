@@ -40,7 +40,7 @@ public class NextdayTest {
   private Date date;
 
   @Before
-  public void before() throws Throwable {
+  public void setup() throws Throwable {
     nextday = new Nextday();
     date = new Date(1, 1, 2020);
   }

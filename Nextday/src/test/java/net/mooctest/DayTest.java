@@ -35,7 +35,7 @@ public class DayTest {
   private Day d2;
 
   @Before
-  public void before() throws Throwable {
+  public void setup() throws Throwable {
     y = new Year(2020);
     m = new Month(1, y);
     d = new Day(1, m);

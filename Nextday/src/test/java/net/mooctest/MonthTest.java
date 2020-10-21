@@ -40,7 +40,7 @@ public class MonthTest {
   private Month m2;
 
   @Before
-  public void before() throws Throwable {
+  public void setup() throws Throwable {
     y = new Year(2020);
     m = new Month(1, y);
     m1 = new Month(1, y);

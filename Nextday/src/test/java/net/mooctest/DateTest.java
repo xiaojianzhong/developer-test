@@ -45,7 +45,7 @@ public class DateTest {
   private Date date2;
 
   @Before
-  public void before() throws Throwable {
+  public void setup() throws Throwable {
     date = new Date(1, 1, 2020);
     date1 = new Date(1, 1, 2020);
     date2 = new Date(1, 1, 2020);
