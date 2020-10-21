@@ -19,18 +19,18 @@
 ## <a name="nextday"></a> Nextday
 
 * 待测试文件：
-  * [CalendarUnit.java](./Triangle/src/main/java/net/mooctest/CalendarUnit.java)
-  * [Date.java](./Triangle/src/main/java/net/mooctest/Date.java)
-  * [Day.java](./Triangle/src/main/java/net/mooctest/Day.java)
-  * [Month.java](./Triangle/src/main/java/net/mooctest/Month.java)
-  * [Nextday.java](./Triangle/src/main/java/net/mooctest/Nextday.java)
-  * [Year.java](./Triangle/src/main/java/net/mooctest/Year.java)
+  * [CalendarUnit.java](./Nextday/src/main/java/net/mooctest/CalendarUnit.java)
+  * [Date.java](./Nextday/src/main/java/net/mooctest/Date.java)
+  * [Day.java](./Nextday/src/main/java/net/mooctest/Day.java)
+  * [Month.java](./Nextday/src/main/java/net/mooctest/Month.java)
+  * [Nextday.java](./Nextday/src/main/java/net/mooctest/Nextday.java)
+  * [Year.java](./Nextday/src/main/java/net/mooctest/Year.java)
 * 测试文件：
-  * [DateTest.java](./Triangle/src/test/java/net/mooctest/DateTest.java)
-  * [DayTest.java](./Triangle/src/test/java/net/mooctest/DayTest.java)
-  * [MonthTest.java](./Triangle/src/test/java/net/mooctest/MonthTest.java)
-  * [NextdayTest.java](./Triangle/src/test/java/net/mooctest/NextdayTest.java)
-  * [YearTest.java](./Triangle/src/test/java/net/mooctest/YearTest.java)
+  * [DateTest.java](./Nextday/src/test/java/net/mooctest/DateTest.java)
+  * [DayTest.java](./Nextday/src/test/java/net/mooctest/DayTest.java)
+  * [MonthTest.java](./Nextday/src/test/java/net/mooctest/MonthTest.java)
+  * [NextdayTest.java](./Nextday/src/test/java/net/mooctest/NextdayTest.java)
+  * [YearTest.java](./Nextday/src/test/java/net/mooctest/YearTest.java)
 * 得分：
   * 语句覆盖率：**93.75**
   * 分支覆盖率：**96.39**
