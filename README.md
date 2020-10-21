@@ -4,6 +4,7 @@
 
 - [Triangle](#triangle)
 - [Nextday](#nextday)
+- [JCLO](#jclo)
 
 ## <a name="triangle"></a> Triangle
 
@@ -34,4 +35,15 @@
 * 得分：
   * 语句覆盖率：**93.75**
   * 分支覆盖率：**96.39**
+  * 方法覆盖率：**100.00**
+
+## <a name="jclo"></a> JCLO
+
+* 待测试文件：
+  * [JCLO.java](./JCLO/src/main/java/net/mooctest/JCLO.java)
+* 测试文件：
+  * [JCLOTest.java](./JCLO/src/test/java/net/mooctest/JCLOTest.java)
+* 得分：
+  * 语句覆盖率：**96.15**
+  * 分支覆盖率：**96.51**
   * 方法覆盖率：**100.00**
