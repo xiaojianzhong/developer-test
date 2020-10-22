@@ -5,6 +5,7 @@
 - [Triangle](#triangle)
 - [Nextday](#nextday)
 - [JCLO](#jclo)
+- [QuadTree](#quadtree)
 
 ## <a name="triangle"></a> Triangle
 
@@ -46,4 +47,23 @@
 * 得分：
   * 语句覆盖率：**96.15**
   * 分支覆盖率：**96.51**
+  * 方法覆盖率：**100.00**
+
+## <a name="quadtree"></a> QuadTree
+
+* 待测试文件：
+  * [Func.java](./QuadTree/src/main/java/net/mooctest/Func.java)
+  * [Node.java](./QuadTree/src/main/java/net/mooctest/Node.java)
+  * [NodeType.java](./QuadTree/src/main/java/net/mooctest/NodeType.java)
+  * [Point.java](./QuadTree/src/main/java/net/mooctest/Point.java)
+  * [QuadTree.java](./QuadTree/src/main/java/net/mooctest/QuadTree.java)
+  * [QuadTreeException.java](./QuadTree/src/main/java/net/mooctest/QuadTreeException.java)
+* 测试文件：
+  * [NodeTest.java](./QuadTree/src/test/java/net/mooctest/NodeTest.java)
+  * [PointTest.java](./QuadTree/src/test/java/net/mooctest/PointTest.java)
+  * [QuadTreeExceptionTest.java](./QuadTree/src/test/java/net/mooctest/QuadTreeExceptionTest.java)
+  * [QuadTreeTest.java](./QuadTree/src/test/java/net/mooctest/QuadTreeTest.java)
+* 得分：
+  * 语句覆盖率：**95.48**
+  * 分支覆盖率：**92.68**
   * 方法覆盖率：**100.00**
