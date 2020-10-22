@@ -152,7 +152,7 @@ public class JCLO {
 
       if (type.isArray()) {
         r += getArrayType(type) + "[]" + ": " + key + " = ";
-        r += java.util.Arrays.toString((Object[]) object);
+        r += java.util.Arrays.toString((Object[])object);
       } else {
         r += type.toString().replaceFirst("class java.lang.", "") + ": " + key + " = " + object;
       }

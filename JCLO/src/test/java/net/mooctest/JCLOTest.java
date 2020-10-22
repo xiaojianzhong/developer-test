@@ -25,7 +25,7 @@ public class JCLOTest {
 
   /* 成员变量 getter & setter，无视访问修饰符 */
   private Field[] fields(JCLO jclo) throws Throwable {
-    return (Field[]) getField(JCLO.class, "fields").get(jclo);
+    return (Field[])getField(JCLO.class, "fields").get(jclo);
   }
   private void fields(JCLO jclo, Field[] fields) throws Throwable {
     getField(JCLO.class, "fields").set(jclo, fields);
@@ -49,13 +49,13 @@ public class JCLOTest {
     getField(JCLO.class, "hasEquals").set(jclo, hasEquals);
   }
   private String prefix(JCLO jclo) throws Throwable {
-    return (String) getField(JCLO.class, "prefix").get(jclo);
+    return (String)getField(JCLO.class, "prefix").get(jclo);
   }
   private void prefix(JCLO jclo, String prefix) throws Throwable {
     getField(JCLO.class, "prefix").set(jclo, prefix);
   }
   private String[][] aliases(JCLO jclo) throws Throwable {
-    return (String[][]) getField(JCLO.class, "aliases").get(jclo);
+    return (String[][])getField(JCLO.class, "aliases").get(jclo);
   }
   private void aliases(JCLO jclo, String[][] aliases) throws Throwable {
     getField(JCLO.class, "aliases").set(jclo, aliases);
@@ -66,16 +66,16 @@ public class JCLOTest {
     return getMethod(JCLO.class, "getObject", Field.class).invoke(jclo, f);
   }
   private Field getField(JCLO jclo, String key) throws Throwable {
-    return (Field) getMethod(JCLO.class, "getField", String.class).invoke(jclo, key);
+    return (Field)getMethod(JCLO.class, "getField", String.class).invoke(jclo, key);
   }
   private void setObject(JCLO jclo, Field f, Object o) throws Throwable {
     getMethod(JCLO.class, "setObject", Field.class, Object.class).invoke(jclo, f, o);
   }
   private String getArrayType(JCLO jclo, Class type) throws Throwable {
-    return (String) getMethod(JCLO.class, "getArrayType", Class.class).invoke(jclo, type);
+    return (String)getMethod(JCLO.class, "getArrayType", Class.class).invoke(jclo, type);
   }
   private String getUsageType(JCLO jclo, Class type) throws Throwable {
-    return (String) getMethod(JCLO.class, "getUsageType", Class.class).invoke(jclo, type);
+    return (String)getMethod(JCLO.class, "getUsageType", Class.class).invoke(jclo, type);
   }
   private void parseAdditional(JCLO jclo, String[] args, int i) throws Throwable {
     getMethod(JCLO.class, "parseAdditional", String[].class, int.class).invoke(jclo, args, i);
@@ -84,16 +84,16 @@ public class JCLOTest {
     return getMethod(JCLO.class, "makeObject", String.class, String.class).invoke(jclo, type, val);
   }
   private Object addToArray(JCLO jclo, Field field, Object o) throws Throwable {
-    return (Object) getMethod(JCLO.class, "addToArray", Field.class, Object.class).invoke(jclo, field, o);
+    return (Object)getMethod(JCLO.class, "addToArray", Field.class, Object.class).invoke(jclo, field, o);
   }
   private String getKey(JCLO jclo, String arg) throws Throwable {
-    return (String) getMethod(JCLO.class, "getKey", String.class).invoke(jclo, arg);
+    return (String)getMethod(JCLO.class, "getKey", String.class).invoke(jclo, arg);
   }
   private String getBooleanValue(JCLO jclo, String arg) throws Throwable {
-    return (String) getMethod(JCLO.class, "getBooleanValue", String.class).invoke(jclo, arg);
+    return (String)getMethod(JCLO.class, "getBooleanValue", String.class).invoke(jclo, arg);
   }
   private String getEqualsValue(JCLO jclo, String arg) throws Throwable {
-    return (String) getMethod(JCLO.class, "getEqualsValue", String.class).invoke(jclo, arg);
+    return (String)getMethod(JCLO.class, "getEqualsValue", String.class).invoke(jclo, arg);
   }
 
   @Rule

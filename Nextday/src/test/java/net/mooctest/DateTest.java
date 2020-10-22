@@ -16,25 +16,25 @@ public class DateTest {
     return getField(CalendarUnit.class, "currentPos").getInt(obj);
   }
   private void currentPos(Object obj, int currentPos) throws Throwable {
-	  getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
+    getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
   }
   private Day d(Date date) throws Throwable {
     return (Day)getField(Date.class, "d").get(date);
   }
   private void d(Date date, Day d) throws Throwable {
-	  getField(Date.class, "d").set(date, d);
+    getField(Date.class, "d").set(date, d);
   }
   private Month m(Date date) throws Throwable {
     return (Month)getField(Date.class, "m").get(date);
   }
   private void m(Date date, Month m) throws Throwable {
-	  getField(Date.class, "m").set(date, m);
+    getField(Date.class, "m").set(date, m);
   }
   private Year y(Date date) throws Throwable {
     return (Year)getField(Date.class, "y").get(date);
   }
   private void y(Date date, Year y) throws Throwable {
-	  getField(Date.class, "y").set(date, y);
+    getField(Date.class, "y").set(date, y);
   }
 
   @Rule

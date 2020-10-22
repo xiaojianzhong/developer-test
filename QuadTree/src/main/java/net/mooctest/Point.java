@@ -48,7 +48,7 @@ public class Point implements Comparable {
   }
 
   public int compareTo(Object o) {
-    Point tmp = (Point) o;
+    Point tmp = (Point)o;
     if (this.x < tmp.x) {
       return -1;
     } else if (this.x > tmp.x) {

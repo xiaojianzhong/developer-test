@@ -16,19 +16,19 @@ public class MonthTest {
     return getField(CalendarUnit.class, "currentPos").getInt(obj);
   }
   private void currentPos(Object obj, int currentPos) throws Throwable {
-	  getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
+    getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
   }
   private Year y(Month m) throws Throwable {
     return (Year)getField(Month.class, "y").get(m);
   }
   private void y(Month m, Year y) throws Throwable {
-	  getField(Month.class, "y").set(m, y);
+    getField(Month.class, "y").set(m, y);
   }
   private int[] sizeIndex(Month m) throws Throwable {
     return (int[])getField(Month.class, "sizeIndex").get(m);
   }
   private void sizeIndex(Month m, int[] sizeIndex) throws Throwable {
-	  getField(Month.class, "sizeIndex").set(m, sizeIndex);
+    getField(Month.class, "sizeIndex").set(m, sizeIndex);
   }
 
   @Rule

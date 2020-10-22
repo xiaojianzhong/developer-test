@@ -15,19 +15,19 @@ public class TriangleTest {
     return getField(Triangle.class, "lborderA").getLong(t);
   }
   private void lborderA(Triangle t, long lborderA) throws Throwable {
-	  getField(Triangle.class, "lborderA").setLong(t, lborderA);
+    getField(Triangle.class, "lborderA").setLong(t, lborderA);
   }
   private long lborderB(Triangle t) throws Throwable {
     return getField(Triangle.class, "lborderB").getLong(t);
   }
   private void lborderB(Triangle t, long lborderB) throws Throwable {
-	  getField(Triangle.class, "lborderB").setLong(t, lborderB);
+    getField(Triangle.class, "lborderB").setLong(t, lborderB);
   }
   private long lborderC(Triangle t) throws Throwable {
     return getField(Triangle.class, "lborderC").getLong(t);
   }
   private void lborderC(Triangle t, long lborderC) throws Throwable {
-	  getField(Triangle.class, "lborderC").setLong(t, lborderC);
+    getField(Triangle.class, "lborderC").setLong(t, lborderC);
   }
 
   private Triangle t;

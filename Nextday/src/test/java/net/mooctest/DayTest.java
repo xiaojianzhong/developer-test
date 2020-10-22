@@ -16,13 +16,13 @@ public class DayTest {
     return getField(CalendarUnit.class, "currentPos").getInt(obj);
   }
   private void currentPos(Object obj, int currentPos) throws Throwable {
-	  getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
+    getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
   }
   private Month m(Day d) throws Throwable {
     return (Month)getField(Day.class, "m").get(d);
   }
   private void m(Day d, Month m) throws Throwable {
-	  getField(Day.class, "m").set(d, m);
+    getField(Day.class, "m").set(d, m);
   }
 
   @Rule

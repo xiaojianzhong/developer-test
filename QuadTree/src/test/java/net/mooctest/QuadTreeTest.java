@@ -205,7 +205,7 @@ public class QuadTreeTest {
     Node node = new Node(1, 1, 1, 1, null);
     nodetype(node, NodeType.LEAF);
     Func func = new Func(){
-    	public boolean called = false;
+      public boolean called = false;
       public void call(QuadTree t, Node n) {
         called = true;
         assertSame(tree, t);
@@ -236,7 +236,7 @@ public class QuadTreeTest {
     nodetype(se, NodeType.LEAF);
     se(node, se);
     Func func = new Func(){
-    	public int ncalled = 0;
+      public int ncalled = 0;
       public void call(QuadTree t, Node n) {
         ncalled++;
       }
@@ -253,7 +253,7 @@ public class QuadTreeTest {
     Node node = new Node(1, 1, 1, 1, null);
     nodetype(node, NodeType.EMPTY);
     Func func = new Func(){
-    	public boolean called = false;
+      public boolean called = false;
       public void call(QuadTree t, Node n) {
         called = true;
       }

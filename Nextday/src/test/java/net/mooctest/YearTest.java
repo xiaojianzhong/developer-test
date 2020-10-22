@@ -16,7 +16,7 @@ public class YearTest {
     return getField(CalendarUnit.class, "currentPos").getInt(obj);
   }
   private void currentPos(Object obj, int currentPos) throws Throwable {
-	  getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
+    getField(CalendarUnit.class, "currentPos").setInt(obj, currentPos);
   }
 
   @Rule
